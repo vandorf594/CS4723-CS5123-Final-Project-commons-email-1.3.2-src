@@ -22,6 +22,7 @@ public class TestAddBcc extends TestCase{
 		assertEquals("value should be a@c.com","a@c.com", testEmail.getBccAddresses().get(1).toString());
 		assertEquals("value should be a@d.com","a@d.com", testEmail.getBccAddresses().get(2).toString());
 		assertEquals("value should be a@e.com","a@e.com", testEmail.getBccAddresses().get(3).toString());
+		System.out.println("ABC959, This test is for the AddBcc method, it adds 4 emails using an array and tests if those 4 emails are set correctly.");
 	}
 
 }

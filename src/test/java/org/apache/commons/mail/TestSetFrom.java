@@ -18,6 +18,7 @@ public class TestSetFrom extends TestCase{
 		 */
 		testEmail.setFrom("a@b.com");
 		assertEquals("value should be a@b.com","a@b.com", testEmail.getFromAddress().toString());
+		System.out.println("ABC959, This tests the SetFrom Method by adding the eail a@b.com and checks to see that it was set correctly");
 	}
 
 }
